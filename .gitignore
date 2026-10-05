@@ -1,0 +1,36 @@
+# Dependencias
+node_modules/
+**/node_modules/
+
+# Builds
+dist/
+build/
+.next/
+out/
+
+# Entorno
+.env
+.env.*
+!.env.example
+
+# Logs y cache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.log
+
+# Sistema / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Prisma
+servidor/prisma/*.db
+servidor/prisma/*.db-journal
+
+# Misc
+coverage/
+.turbo/
